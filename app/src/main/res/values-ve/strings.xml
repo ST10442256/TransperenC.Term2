@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TransperenC</string>
+    <string name="login">Dzhena</string>
+    <string name="register">U Redzhisitara</string>
+    <string name="username">Dzina la mushumisi</string>
+    <string name="email">Imeili</string>
+    <string name="password">Phaswede</string>
+    <string name="confirm_password">Khonfama Phaswede</string>
+    <string name="dashboard">Deshibodo</string>
+    <string name="settings">Zwiimiswa</string>
+    <string name="profile">Phurofaele</string>
+    <string name="reports">Mivhigo</string>
+    <string name="documents">Manwalo</string>
+    <string name="donor_portal">Phothala ya mufhi</string>
+    <string name="compliance_score">Zwibveledzwa zwa u tevhedza</string>
+    <string name="language_selection">U nanga luambo</string>
+    <string name="logout">Buda</string>
+    <string name="donate_now">Fha zwino</string>
+    <string name="make_a_donation">Etsa mufho</string>
+    <string name="enter_donation_amount">Dzhenisani tshelede ine na tama u fha (ZAR)</string>
+    <string name="amount">Tshelede</string>
+    <string name="donate">Fha</string>
+    <string name="cancel">Khansela</string>
+    <string name="account_info">Zwidodombedzwa zwa akhaunthu</string>
+</resources>

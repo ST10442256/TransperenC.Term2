@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TransperenC</string>
+    <string name="login">Ngena</string>
+    <string name="register">Bhalisa</string>
+    <string name="username">Igama lomsebenzisi</string>
+    <string name="email">I-imeyili</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="confirm_password">Qinisekisa Iphasiwedi</string>
+    <string name="dashboard">Ideshibhodi</string>
+    <string name="settings">Izilungiselelo</string>
+    <string name="profile">Iphrofayili</string>
+    <string name="reports">Imibiko</string>
+    <string name="documents">Amadokhumenti</string>
+    <string name="donor_portal">Ingosi Yabanikeli</string>
+    <string name="compliance_score">Amaphuzu Okuhambisana</string>
+    <string name="language_selection">Ukukhethwa Kolimi</string>
+    <string name="logout">Phuma</string>
+    <string name="donate_now">Nikela Manje</string>
+    <string name="make_a_donation">Yenza Umnikelo</string>
+    <string name="enter_donation_amount">Faka inani ongathanda ukulinikela (ZAR)</string>
+    <string name="amount">Inani</string>
+    <string name="donate">Nikela</string>
+    <string name="cancel">Khansela</string>
+    <string name="account_info">Imininingwane Ye-akhawunti</string>
+</resources>

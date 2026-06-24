@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TransperenC</string>
+    <string name="login">Teken in</string>
+    <string name="register">Registreer</string>
+    <string name="username">Gebruikersnaam</string>
+    <string name="email">E-pos</string>
+    <string name="password">Wagwoord</string>
+    <string name="confirm_password">Bevestig Wagwoord</string>
+    <string name="dashboard">Instapbord</string>
+    <string name="settings">Instellings</string>
+    <string name="profile">Profiel</string>
+    <string name="reports">Verslae</string>
+    <string name="documents">Dokumente</string>
+    <string name="donor_portal">Skenkerportaal</string>
+    <string name="compliance_score">Voldoeningsyfer</string>
+    <string name="language_selection">Taalkeuse</string>
+    <string name="logout">Teken uit</string>
+    <string name="donate_now">Skenk Nou</string>
+    <string name="make_a_donation">Maak \'n Skenking</string>
+    <string name="enter_donation_amount">Voer die bedrag in wat jy wil skenk (ZAR)</string>
+    <string name="amount">Bedrag</string>
+    <string name="donate">Skenk</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="account_info">Rekeninginligting</string>
+</resources>

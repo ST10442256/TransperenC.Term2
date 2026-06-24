@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TransperenC</string>
+    <string name="login">Kena</string>
+    <string name="register">Ingolise</string>
+    <string name="username">Lebitso la mosebelisi</string>
+    <string name="email">Imeile</string>
+    <string name="password">Phasewete</string>
+    <string name="confirm_password">Netefatsa Phasewete</string>
+    <string name="dashboard">Letlapa la mosebetsi</string>
+    <string name="settings">Di-setting</string>
+    <string name="profile">Boemo ba mosebelisi</string>
+    <string name="reports">Ditlaleho</string>
+    <string name="documents">Litokomane</string>
+    <string name="donor_portal">Potale ea mofani</string>
+    <string name="compliance_score">Lintlha tsa tumellano</string>
+    <string name="language_selection">Khetho ea puo</string>
+    <string name="logout">Tsoa</string>
+    <string name="donate_now">Fana Hona Joale</string>
+    <string name="make_a_donation">Etsa Monehelo</string>
+    <string name="enter_donation_amount">Kenya chelete eo u ka ratang ho fana ka eona (ZAR)</string>
+    <string name="amount">Chelete</string>
+    <string name="donate">Fana</string>
+    <string name="cancel">Hlakola</string>
+    <string name="account_info">Lintlha tsa ak’haonte</string>
+</resources>
