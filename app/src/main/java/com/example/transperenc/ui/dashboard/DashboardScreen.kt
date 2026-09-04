@@ -19,8 +19,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.tooling.preview.Preview
 import com.example.transperenc.R
 import com.example.transperenc.viewmodel.MainViewModel
+import com.example.transperenc.ui.theme.TransperenCTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -42,7 +44,6 @@ fun DashboardScreen(
 
     val navyBlue = Color(0xFF0F2942)
     val successGreen = Color(0xFF00A67E)
-    val warningYellow = Color(0xFFFBC02D)
     val darkBg = Color(0xFF001F2B)
 
     Column(modifier = Modifier.fillMaxSize()) {
@@ -319,7 +320,7 @@ fun DashboardScreen(
                             colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f))
                         ) {
                             Row(modifier = Modifier.padding(8.dp), verticalAlignment = Alignment.CenterVertically) {
-                                Icon(Icons.Default.Stars, contentHighlight(xp), tint = MaterialTheme.colorScheme.primary)
+                                Icon(Icons.Default.Stars, contentDescription = "XP: $xp", tint = MaterialTheme.colorScheme.primary)
                                 Spacer(Modifier.width(4.dp))
                                 Column {
                                     Text("Level $level", style = MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Bold)
@@ -335,8 +336,6 @@ fun DashboardScreen(
         }
     }
 }
-
-private fun contentHighlight(xp: Int): String = "XP: $xp"
 
 @Composable
 fun StatCard(
