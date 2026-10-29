@@ -2,9 +2,11 @@ name: TransperenC Android CI
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   pull_request:
-    branches: [main]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -24,6 +26,9 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
+
+      - name: Make Gradle wrapper executable
+        run: chmod +x gradlew
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v6
